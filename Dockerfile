@@ -15,7 +15,6 @@ RUN apt-get update && apt-get install -y -q --no-install-recommends \
         libssl-dev \
         wget \
         curl \
-        openssl \
         libproj-dev \
         libgdal-dev \
 	libcurl4-openssl-dev \
