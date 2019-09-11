@@ -1,4 +1,5 @@
-FROM ubuntu # replace with your preferred system docker if you wish
+# Replace with your preferred system docker if you wish
+FROM ubuntu
 # Replace shell with bash so we can source files
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 
